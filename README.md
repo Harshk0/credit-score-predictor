@@ -1,6 +1,6 @@
 # Credit Score Prediction using Machine Learning
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP-NAME.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://credit-score-predictor-nskvgteb6aui4iog8lezda.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![Model](https://img.shields.io/badge/Model-Extra%20Trees-green)
 ![R2](https://img.shields.io/badge/Test%20R%C2%B2-0.904-brightgreen)
@@ -10,7 +10,8 @@ Predicting a customer's credit score from behavioural and demographic features u
 **Course:** Computational Intelligence, T.Y. B.Tech E&TC
 **Author:** Harsh Katheria
 
-> **Live demo:** [Open the Streamlit app](https://YOUR-APP-NAME.streamlit.app)
+> **Live demo:** [Open the Streamlit app](https://credit-score-predictor-nskvgteb6aui4iog8lezda.streamlit.app/)
+> The app may take a few seconds to wake up if it has been idle.
 
 ---
 
@@ -191,7 +192,7 @@ python main.py --data "C:/path/to/your_dataset.csv"   # custom dataset path
 python -m streamlit run app.py
 ```
 
-Then open http://localhost:8501, or use the [live demo](https://YOUR-APP-NAME.streamlit.app).
+Then open http://localhost:8501, or use the [live demo](https://credit-score-predictor-nskvgteb6aui4iog8lezda.streamlit.app/).
 
 ## License and Disclaimer
 
