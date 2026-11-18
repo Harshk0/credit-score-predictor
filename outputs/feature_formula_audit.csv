@@ -1,0 +1,6 @@
+Feature,Possible_Formula,Exact_Match,Max_Difference
+Monthly_Spending,Sum of spending categories,False,0.029999999998835847
+Credit_Utilization,Outstanding_Balance / Credit_Limit * 1,False,0.027669899497487438
+Credit_Utilization,Outstanding_Balance / Credit_Limit * 100,False,96.18360000000001
+Payment_Ratio,Payment_Amount / Statement_Balance * 1,True,5.54431292099089e-07
+Payment_Ratio,Payment_Amount / Statement_Balance * 100,False,99.0

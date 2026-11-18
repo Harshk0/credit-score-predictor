@@ -1,0 +1,20 @@
+Gender,Customers,MAE,Group_Feature,Occupation,Card_Type,Age_Group
+F,428,17.15252141744547,Gender,,,
+M,572,16.60925197487698,Gender,,,
+,110,21.270429292929293,Occupation,Business Owner,,
+,166,15.693775100401602,Occupation,Government Employee,,
+,429,15.362261503928169,Occupation,Private Employee,,
+,63,16.99238683127573,Occupation,Retired,,
+,146,17.61393962455607,Occupation,Self-Employed,,
+,86,19.352228682170505,Occupation,Student,,
+,219,17.676883561643823,Card_Type,,Basic,
+,333,14.986341897453018,Card_Type,,Gold,
+,161,16.575201288244756,Card_Type,,Platinum,
+,50,25.45364814814815,Card_Type,,Signature,
+,237,17.04131700265666,Card_Type,,Silver,
+,202,16.543552896956353,Age_Group,,,<25
+,355,17.34998826291079,Age_Group,,,25-35
+,219,16.0591894977169,Age_Group,,,36-45
+,137,16.923820627196545,Age_Group,,,46-55
+,60,15.891959876543202,Age_Group,,,56-65
+,27,20.432750342935538,Age_Group,,,65+

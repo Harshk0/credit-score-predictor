@@ -1,0 +1,67 @@
+{
+  "project": "Credit Score Prediction Using Machine Learning",
+  "dataset": "synthetic_credit_card_customer_behavior_dataset.csv",
+  "dataset_type": "Synthetic",
+  "target": "Credit_Score",
+  "problem_type": "Regression",
+  "model": "Tuned Extra Trees Regressor",
+  "features_used": [
+    "Age",
+    "Gender",
+    "Annual_Income",
+    "Occupation",
+    "Card_Type",
+    "Credit_Limit",
+    "Card_Age_Months",
+    "Monthly_Spending",
+    "Monthly_Transactions",
+    "Avg_Transaction_Value",
+    "Online_Shopping_Spending",
+    "Grocery_Spending",
+    "Fuel_Spending",
+    "Dining_Spending",
+    "Travel_Spending",
+    "Entertainment_Spending",
+    "Utility_Bill_Spending",
+    "Outstanding_Balance",
+    "Statement_Balance",
+    "Payment_Amount",
+    "Cash_Advance_Amount",
+    "EMI_Count",
+    "International_Transactions",
+    "Reward_Points_Earned",
+    "Reward_Points_Redeemed",
+    "Mobile_App_Login"
+  ],
+  "excluded_features": [
+    "Credit_Score",
+    "Customer_ID",
+    "Payment_Ratio",
+    "Credit_Utilization"
+  ],
+  "train_rows": 4000,
+  "test_rows": 1000,
+  "random_state": 42,
+  "best_parameters": {
+    "model__n_estimators": 180,
+    "model__min_samples_leaf": 2,
+    "model__max_features": 1.0,
+    "model__max_depth": null
+  },
+  "metrics": {
+    "MAE": 16.841771296296294,
+    "MSE": 466.937564028635,
+    "RMSE": 21.608738140591065,
+    "R2": 0.904302583354739,
+    "Median_Absolute_Error": 13.619907407407368,
+    "Tuned_CV_RMSE": 24.484879844983407
+  },
+  "limitations": [
+    "Synthetic data does not establish real-world credit-risk validity.",
+    "Feature-generation formulas and prediction-time availability require verification.",
+    "Random holdout does not test future-time generalization.",
+    "Subgroup diagnostics are not formal fairness certification.",
+    "This is an academic prototype, not a production lending decision system."
+  ],
+  "created_at": "2026-11-18T12:51:03.642884"
+}

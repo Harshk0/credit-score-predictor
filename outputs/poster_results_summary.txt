@@ -1,0 +1,16 @@
+CREDIT SCORE PREDICTION USING MACHINE LEARNING
+Records: 5,000
+Features: 26
+Training rows: 4,000
+Test rows: 1,000
+Model: Tuned Extra Trees Regressor
+Best parameters: {'model__n_estimators': 180, 'model__min_samples_leaf': 2, 'model__max_features': 1.0, 'model__max_depth': None}
+
+MAE: 16.8418
+MSE: 466.9376
+RMSE: 21.6087
+R2: 0.9043
+Median_Absolute_Error: 13.6199
+Tuned_CV_RMSE: 24.4849
+
+Dataset is synthetic; results are an academic prototype only.
